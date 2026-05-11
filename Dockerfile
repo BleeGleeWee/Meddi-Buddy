@@ -9,8 +9,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
  
 # Build FAISS index during image build
-
-RUN python ingest.py
  
 EXPOSE 8000
 
